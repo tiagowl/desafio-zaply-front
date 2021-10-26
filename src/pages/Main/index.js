@@ -21,7 +21,7 @@ export default function Main(){
         { id: 70709795, image: "https://savegnago.vteximg.com.br/arquivos/ids/293238_2", name: "Borracha Escolar Faber Castell Super Soft", categories: "Bazar E Utilidades", price: 5.39, brand: "Faber Castell" },
         { id: 70709271, image: "https://savegnago.vteximg.com.br/arquivos/ids/296943_2", name: "Cereal Barra Linea 60g Cookies Cream", categories: "Mercearia", price: 4.99, brand: "Linea" },
         { id: 70712433, image: "https://savegnago.vteximg.com.br/arquivos/ids/268054_2", name: "Sobremesa Chandelle 200g Chantilly Caramelo", categories: "Laticínios", price: 4.99, brand: "Chandelle" },
-        { id: 70710768, image: "https://savegnago.vteximg.com.br/arquivos/ids/285909_2", name: "Absorvente Always Com 8 Super Protecao Com Abas Suave", categories: "Perfumaria E Beleza", price: 4.19, brand: "Always" },
+        { id: 70705194, image: "https://savegnago.vteximg.com.br/arquivos/ids/276040_2", name: "Vagem Macarrao Organica Solo Vivo 300g", categories: "Hortifruti", price: 6.99, brand: "Solo Vivo" },
         { id: 70707050, image: "https://savegnago.vteximg.com.br/arquivos/ids/448210_2", name: "Tempero Smart Zero Sódio 48g Frango", categories: "Mercearia", price: 18.38, brand: "Smart" },
         { id: 70703001, image: "https://savegnago.vteximg.com.br/arquivos/ids/305299_2", name: "Amaciante Roupa Baby Soft 5l Toque Cuidado", categories: "Limpeza", price: 13.95, brand: "Baby Soft" },
         { id: 70714252, image: "https://savegnago.vteximg.com.br/arquivos/ids/270090_2", name: "Acendedor Alcool Solido Fiat Lux", categories: "Bazar E Utilidades", price: 11.49, brand: "Fiat Lux" },
@@ -30,7 +30,7 @@ export default function Main(){
     if(productsApi != "") return(
         <>
             <main>
-                <div className="container" >
+                <div className="container">
                     <div className="row">
                         <div className="col-md-12">
                             <h1 className="title" >Products</h1>
@@ -53,7 +53,7 @@ export default function Main(){
     else return(
         <>
             <main>
-                <div className="container" >
+                <div className="container">
                     <div className="row">
                         <div className="col-md-12">
                             <h1 className="title" >Products</h1>
