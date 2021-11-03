@@ -20,7 +20,8 @@ a{
 .product{
     display: flex;
     flex-direction: column;
-    width: 230px;
+    flex-grow: 1;
+    flex-basis: 230px;
     margin-right: 4%;
     padding: 0;
     background-color: #E9ECEC;
