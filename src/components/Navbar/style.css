@@ -4,4 +4,14 @@
     box-shadow: 1px 1px 1px #E2E5E5;
 }
 
+@media(max-width: 991px){
+    .d-flex{
+        margin-top: 15px;
+    }
+
+    .d-flex, .nav-item{
+        margin-left: 19px;
+    }
+}
+
 
