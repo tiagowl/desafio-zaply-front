@@ -1,6 +1,7 @@
 main{
     background-color: #E9ECEC;
-    height: 900px;
+    min-height: 900px;
+    height: auto;
     width: 100%;
     padding-top: 40px;
     padding-bottom: 20px;
