@@ -60,10 +60,10 @@ export default function Main(){
                         </div>
                     </div>
                     <div className="row" >
-                        {products.map((product)=>(
+                        {products.map((product,index)=>(
                             <div className="product" >
                                 <img src={product.image} className="product-img" />
-                                <a href="/product/1" className="product-name" >{product.name}</a>
+                                <a href={`/product/${index}`} className="product-name" >{product.name}</a>
                                 <p className="product-price" >R$ {product.price}</p>
                             </div>
                         ))}
